@@ -1,16 +1,9 @@
-# ==========================================
-# macOS ve İşletim Sistemi Dosyaları
-# ==========================================
 .DS_Store
 .AppleDouble
 .LSOverride
 ._*
 .Trashes
 
-# ==========================================
-# C / C++ ve Derleme Sistemleri (CMake, Make)
-# ==========================================
-# Derlenmiş nesne dosyaları ve kütüphaneler
 *.o
 *.obj
 *.so
@@ -18,13 +11,11 @@
 *.a
 *.lib
 
-# Çalıştırılabilir ikili dosyalar (Executables)
 *.exe
 *.out
 *.app
 a.out
 
-# CMake çıktıları ve derleme klasörleri
 build/
 build-*/
 cmake-build-*/
@@ -34,51 +25,35 @@ cmake_install.cmake
 Makefile
 compile_commands.json
 
-# ==========================================
-# Python
-# ==========================================
-# Byte-code ve önbellek dosyaları
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Sanal ortamlar (Virtual Environments)
 .venv/
 venv/
 env/
 ENV/
 
-# Pakete dönüştürme ve dağıtım çıktıları
 dist/
 *.egg-info/
 .eggs/
 
-# Test ve kapsama alanı araçları (Pytest vb.)
 .pytest_cache/
 .coverage
 htmlcov/
 
-# ==========================================
-# Editörler ve IDE'ler
-# ==========================================
-# VS Code (Kişisel durumlar hariç genel ayarlar)
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 
-# Vim / Neovim swap dosyaları
 *.swp
 *.swo
 *~
 .netrwhist
 
-# JetBrains (CLion, PyCharm)
 .idea/
 
-# ==========================================
-# Güvenlik ve Gizli Bilgiler
-# ==========================================
 .env
 .env.*
 !.env.example
